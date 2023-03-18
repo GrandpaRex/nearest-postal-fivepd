@@ -60,7 +60,6 @@ end)
 
 RegisterServerEvent('getPostalServer')
 AddEventHandler("getPostalServer", function(coords)
-    print('Triggered')
     while postals == nil do
         Wait(1)
     end
